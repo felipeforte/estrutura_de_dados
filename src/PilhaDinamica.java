@@ -37,10 +37,7 @@ public class PilhaDinamica {
     }
 
     public boolean vazio() {
-        if (tamanho == 0) {
-            return true;
-        }
-        return false;
+        return tamanho == 0;
     }
 
     @Override
