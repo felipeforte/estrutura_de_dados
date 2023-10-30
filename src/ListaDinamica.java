@@ -123,6 +123,13 @@ public class ListaDinamica {
         return -1;
     }
 
+    public boolean vazia() {
+        if (tamanho == 0) {
+            return true;
+        }
+        return false;
+    }
+
     @Override
     public String toString() {
         No atual = primeiro;
