@@ -100,6 +100,13 @@ public class ListaEstatica {
         return -1;
     }
 
+    public boolean vazia() {
+        if (tamanho == 0) {
+            return true;
+        }
+        return false;
+    }
+
     @Override
     public String toString() {
         String str = "[ ";
